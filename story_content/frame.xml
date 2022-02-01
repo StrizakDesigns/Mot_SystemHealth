@@ -20,7 +20,7 @@
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="false">
+          <option name="sidebar_enabled" value="true">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -28,8 +28,8 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -1432,13 +1432,20 @@
       <string id="three_image_interaction_prev">previous</string>
       <string id="three_image_visited">visited</string>
       <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
       <string id="three_image_item">item</string>
       <string id="three_image_interaction_step">step</string>
       <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
       <string id="three_image_progress_video">progress</string>
       <string id="three_image_video">video</string>
       <string id="three_image_video_volume">video volume</string>
       <string id="three_image_view_image">view image</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
@@ -1544,18 +1551,42 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6qvztmtBZAr" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.6qvztmtBZAr" displaytext="System Tasks" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6qvztmtBZAr.5aF4Im7Xiek" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6qvztmtBZAr.5aF4Im7Xiek" displaytext="Main Page" expand="false" type="slide" />
             <slidelink slideid="_player.6qvztmtBZAr.6QRUfMnVgZq" displaytext="Home" expand="false" type="slide" />
             <slidelink slideid="_player.6qvztmtBZAr.5dSotzEM0Q1" displaytext="Swapping" expand="false" type="slide" />
-            <slidelink slideid="_player.6qvztmtBZAr.6Jt085OyO8s" displaytext="AM(Field)" expand="false" type="slide" />
-            <slidelink slideid="_player.6qvztmtBZAr.5w7OhUmsqbr" displaytext="SM" expand="false" type="slide" />
-            <slidelink slideid="_player.6qvztmtBZAr.6HzDoH8FXew" displaytext="AR" expand="false" type="slide" />
-            <slidelink slideid="_player.6qvztmtBZAr.6MLfaiXLmR2" displaytext="Red Light Pickup" expand="false" type="slide" />
-            <slidelink slideid="_player.6qvztmtBZAr.60vhwh2zc8v" displaytext="R&amp;amp;V" expand="false" type="slide" />
-            <slidelink slideid="_player.6qvztmtBZAr.5hGPTpr6ioP" displaytext="Depot R" expand="false" type="slide" />
-            <slidelink slideid="_player.6qvztmtBZAr.6DcZTaSad7Q" displaytext="Depot D" expand="false" type="slide" />
+            <slidelink slideid="_player.6qvztmtBZAr.6Jt085OyO8s" displaytext="Asset Maintenance (Field)" expand="false" type="slide" />
+            <slidelink slideid="_player.6qvztmtBZAr.5w7OhUmsqbr" displaytext="Station Maintenance" expand="false" type="slide" />
+            <slidelink slideid="_player.6qvztmtBZAr.6HzDoH8FXew" displaytext="Asset Recovery" expand="false" type="slide" />
+            <slidelink slideid="_player.6qvztmtBZAr.6MLfaiXLmR2" displaytext="Needs Pickup" expand="false" type="slide" />
+            <slidelink slideid="_player.6qvztmtBZAr.60vhwh2zc8v" displaytext="Rebalance &amp;amp; Valet" expand="false" type="slide" />
+            <slidelink slideid="_player.6qvztmtBZAr.5hGPTpr6ioP" displaytext="Depot Repair" expand="false" type="slide" />
+            <slidelink slideid="_player.6qvztmtBZAr.6DcZTaSad7Q" displaytext="Depot Deployment" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6eZd7aipFVC" displaytext="Direct SWO Impact" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6eZd7aipFVC.6p6HyeOAwJF" displaytext="SVR / WPS" expand="false" type="slide" />
+            <slidelink slideid="_player.6eZd7aipFVC.68qjmnSvFaP" displaytext="On-Street Availability" expand="false" type="slide" />
+            <slidelink slideid="_player.6eZd7aipFVC.69pUe3GEtXf" displaytext="Fleet Availability" expand="false" type="slide" />
+            <slidelink slideid="_player.6eZd7aipFVC.5wy6JGVCRKF" displaytext="Rideability" expand="false" type="slide" />
+            <slidelink slideid="_player.6eZd7aipFVC.5ebEa5CxK4R" displaytext="Blended Fleet Availability" expand="false" type="slide" />
+            <slidelink slideid="_player.6eZd7aipFVC.5nJUnSradFl" displaytext="Inspection Cadence (DSLI)" expand="false" type="slide" />
+            <slidelink slideid="_player.6eZd7aipFVC.5lNHJjme0p1" displaytext="Station Uptime" expand="false" type="slide" />
+            <slidelink slideid="_player.6eZd7aipFVC.61OLNcPD0MM" displaytext="Station / Dock Repair" expand="false" type="slide" />
+            <slidelink slideid="_player.6eZd7aipFVC.6dmUnZ8cLDP" displaytext="AOG / SLA 9 " expand="false" type="slide" />
+            <slidelink slideid="_player.6eZd7aipFVC.5b1KRsKCtR3" displaytext="Broken Bike Retrieval" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6F6Z566acdU" displaytext="Downstream SWO Impact" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6F6Z566acdU.5n1TSWjRXDY" displaytext="Inspection Cadence DSLI" expand="false" type="slide" />
+            <slidelink slideid="_player.6F6Z566acdU.6nyxw7L44D2" displaytext="AOG / SLA 9" expand="false" type="slide" />
+            <slidelink slideid="_player.6F6Z566acdU.6F7EXitn3qN" displaytext="Customer Coverage" expand="false" type="slide" />
+            <slidelink slideid="_player.6F6Z566acdU.602MzORKkUE" displaytext="Fleet Availability" expand="false" type="slide" />
+            <slidelink slideid="_player.6F6Z566acdU.6MppGjJKd9F" displaytext="On-Street Availability" expand="false" type="slide" />
+            <slidelink slideid="_player.6F6Z566acdU.6D12hmswwoZ" displaytext="Broken Bike Retrieval" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
